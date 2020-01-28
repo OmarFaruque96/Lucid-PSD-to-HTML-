@@ -455,9 +455,8 @@ a:hover{
 	margin-top: 15px;
 	right: 0;
 }
-
-.google-map{
-	position: absolute;
-	width: 100%;
-	height: auto;
+.contact-form-area .form-group input:focus,
+.contact-form-area .form-group textarea:focus{
+    box-shadow: none !important;
+    background-color: transparent !important;
 }
